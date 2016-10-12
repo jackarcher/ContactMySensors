@@ -91,7 +91,7 @@ class DashboardTableViewController: UITableViewController, UISplitViewController
         tableView.deselectRow(at: indexPath, animated: true)
         // when selected a row, go to detail view
         isHideDetail = false
-        performSegue(withIdentifier: "toSensorList", sender: indexPath.row)
+        performSegue(withIdentifier: "showDetail", sender: indexPath.row)
     }
     
     // split view controller relevant
@@ -100,8 +100,9 @@ class DashboardTableViewController: UITableViewController, UISplitViewController
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toSensorList"{
-            let navi = segue.destination as! UINavigationController
+        if segue.identifier == "showDetail"{
+            let tab = segue.destination as! UITabBarController
+            let navi = tab.viewControllers?[0] as! UINavigationController
             let target = navi.viewControllers[0] as! RecordListTableViewController
             if let sender = sender as? Int{
                 if sender == 0 {

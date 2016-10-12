@@ -82,9 +82,9 @@ public class LoadRemoteData{
             if status == 0 || status == 1{
                 // got readings
                 if (type == "color"){
-                    processCurrentColor(from: readings, into: list)
+                    processColor(from: readings, into: list)
                 } else if type == "temperature"{
-                    processCurrentTemperature(from: readings, into: list)
+                    processTemperature(from: readings, into: list)
                 }
             } else {
                 // no readings available
@@ -100,9 +100,9 @@ public class LoadRemoteData{
     
     /// This function is used to process the content of the response JSON to a color record. Then store it into local variable
     /// - Parameters:
-    ///     - readings: An array that contains only one result, which refers to the current reading
+    ///     - readings: An array that contains all results about color
     ///     - list: The array that will store the information about the result, either about temperature or about color
-    static func processCurrentColor(from readings: NSArray!, into list: NSMutableArray!){
+    static func processColor(from readings: NSArray!, into list: NSMutableArray!){
         
         for reading in readings{
             guard
@@ -124,9 +124,9 @@ public class LoadRemoteData{
     
     /// This function is used to process the content of the response JSON to a temperature record. Then store it into local variable
     /// - Parameters:
-    ///     - readings: An array that contains only one result, which refers to the current reading
+    ///     - readings: An array that contains all results about temperature
     ///     - list: The array that will store the information about the result, either about temperature or about color
-    static func processCurrentTemperature(from readings: NSArray!, into list:NSMutableArray!){
+    static func processTemperature(from readings: NSArray!, into list:NSMutableArray!){
         for reading in readings{
             guard
                 let reading = reading as? [String:AnyObject],

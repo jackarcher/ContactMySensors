@@ -19,7 +19,11 @@ class RecordListTableViewController: UITableViewController, UISplitViewControlle
     
     /// This function is used to trigger a load action (when first loading) or a reload action (when refresh button triggered by the user) for the recordList.
     func reloadRecords(){
-        LoadRemoteData.loadData(api: "multisensor/50", for: type!, in: self.tableView, into: recordList, failHandler: nil)
+        if type == "temperature"{
+            LoadRemoteData.loadData(api: "multisensor/50", for: type!, in: self.tableView, into: recordList, failHandler: nil)
+        } else if type == "color"{
+            LoadRemoteData.loadData(api: "colorsensor/50", for: type!, in: self.tableView, into: recordList, failHandler: nil)
+        }
     }
     
     override func viewDidLoad() {
@@ -30,6 +34,9 @@ class RecordListTableViewController: UITableViewController, UISplitViewControlle
         
         // portrait button
         self.navigationItem.leftBarButtonItems?.append((self.splitViewController?.displayModeButtonItem)!)
+        
+        // set title
+        self.navigationItem.title = "\((type?.capitalized)!) readings"
         
         // add refresh button
         let btnRefresh = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(reloadRecords))
@@ -58,15 +65,16 @@ class RecordListTableViewController: UITableViewController, UISplitViewControlle
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "showTemperatureDetail", sender: indexPath.row)
+        performSegue(withIdentifier: "showRecordDetail", sender: indexPath.row)
         
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showTemperatureDetail" {
-            let target = segue.destination as! TemperatureDetailTableViewController
+        if segue.identifier == "showRecordDetail" {
+            let target = segue.destination as! DetailTableViewController
             let sender = sender as! Int
-            target.temperatureRecord = recordList[sender] as! TemperatureRecord
+            target.record = recordList[sender] as? DisplayableRecord
+            target.type = self.type
         }
     }
     

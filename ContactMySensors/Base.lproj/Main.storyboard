@@ -39,7 +39,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Readings" id="TlQ-eU-PIr"/>
                     <connections>
-                        <segue destination="Tel-VO-uCG" kind="show" identifier="showTemperatureDetail" id="vAF-GQ-AeI"/>
+                        <segue destination="Tel-VO-uCG" kind="show" identifier="showRecordDetail" id="vAF-GQ-AeI"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yyU-0l-Jwb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -78,7 +78,7 @@
         <!--Detail-->
         <scene sceneID="Uz8-ts-0ea">
             <objects>
-                <tableViewController id="Tel-VO-uCG" customClass="TemperatureDetailTableViewController" customModule="ContactMySensors" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Tel-VO-uCG" customClass="DetailTableViewController" customModule="ContactMySensors" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="RcS-xa-zlM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,7 +138,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Dashboard" id="yaF-4o-0gp"/>
                     <connections>
-                        <segue destination="CJ8-Dh-ov0" kind="showDetail" identifier="toSensorList" id="U5i-Oe-8Tc"/>
+                        <segue destination="xie-um-bSW" kind="showDetail" identifier="showDetail" id="rB2-hK-cwg"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fe8-Wo-hO7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -209,6 +209,6 @@
         <image name="trend_icon" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="U5i-Oe-8Tc"/>
+        <segue reference="rB2-hK-cwg"/>
     </inferredMetricsTieBreakers>
 </document>

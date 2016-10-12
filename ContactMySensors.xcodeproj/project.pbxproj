@@ -17,7 +17,7 @@
 		CB054BA21DAC6DA900CF9829 /* RecordListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054BA11DAC6DA900CF9829 /* RecordListTableViewController.swift */; };
 		CB054BA41DAC6DFF00CF9829 /* TemperatureRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054BA31DAC6DFF00CF9829 /* TemperatureRecord.swift */; };
 		CB054BA91DAC7C9C00CF9829 /* LoadRemoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054BA81DAC7C9C00CF9829 /* LoadRemoteData.swift */; };
-		CB116D4D1DACDB94002A1A7D /* TemperatureDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB116D4C1DACDB94002A1A7D /* TemperatureDetailTableViewController.swift */; };
+		CB116D4D1DACDB94002A1A7D /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB116D4C1DACDB94002A1A7D /* DetailTableViewController.swift */; };
 		CB116D4F1DACECF9002A1A7D /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB116D4E1DACECF9002A1A7D /* DashboardTableViewController.swift */; };
 		CB116D511DACEDD3002A1A7D /* ColorRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB116D501DACEDD3002A1A7D /* ColorRecord.swift */; };
 /* End PBXBuildFile section */
@@ -56,7 +56,7 @@
 		CB054BA11DAC6DA900CF9829 /* RecordListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordListTableViewController.swift; sourceTree = "<group>"; };
 		CB054BA31DAC6DFF00CF9829 /* TemperatureRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureRecord.swift; sourceTree = "<group>"; };
 		CB054BA81DAC7C9C00CF9829 /* LoadRemoteData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadRemoteData.swift; sourceTree = "<group>"; };
-		CB116D4C1DACDB94002A1A7D /* TemperatureDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureDetailTableViewController.swift; sourceTree = "<group>"; };
+		CB116D4C1DACDB94002A1A7D /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		CB116D4E1DACECF9002A1A7D /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
 		CB116D501DACEDD3002A1A7D /* ColorRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,7 +154,7 @@
 			children = (
 				CB116D4E1DACECF9002A1A7D /* DashboardTableViewController.swift */,
 				CB054BA11DAC6DA900CF9829 /* RecordListTableViewController.swift */,
-				CB116D4C1DACDB94002A1A7D /* TemperatureDetailTableViewController.swift */,
+				CB116D4C1DACDB94002A1A7D /* DetailTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -306,7 +306,7 @@
 				CB054BA21DAC6DA900CF9829 /* RecordListTableViewController.swift in Sources */,
 				CB116D511DACEDD3002A1A7D /* ColorRecord.swift in Sources */,
 				CB054BA91DAC7C9C00CF9829 /* LoadRemoteData.swift in Sources */,
-				CB116D4D1DACDB94002A1A7D /* TemperatureDetailTableViewController.swift in Sources */,
+				CB116D4D1DACDB94002A1A7D /* DetailTableViewController.swift in Sources */,
 				CB054B771DAB46A800CF9829 /* ContactMySensors.xcdatamodeld in Sources */,
 				CB054BA41DAC6DFF00CF9829 /* TemperatureRecord.swift in Sources */,
 				CB054B6F1DAB46A800CF9829 /* AppDelegate.swift in Sources */,

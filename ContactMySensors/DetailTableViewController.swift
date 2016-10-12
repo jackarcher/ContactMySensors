@@ -8,19 +8,22 @@
 
 import UIKit
 
-class TemperatureDetailTableViewController: UITableViewController {
+class DetailTableViewController: UITableViewController {
     
-    var temperatureRecord: TemperatureRecord?
+    var record: DisplayableRecord?
     var detailList:[String]?
-    
+    var type:String?
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // initialize the data source
-        detailList = temperatureRecord?.getDetailInArray()
+        detailList = record?.getDetailInArray()
         
         // Uncomment the following line to preserve selection between presentations
         self.clearsSelectionOnViewWillAppear = false
+        
+        // set title
+        self.navigationItem.title = "\((type?.capitalized)!) detials"
         
         // hide the footer
         tableView.tableFooterView = UIView()
@@ -45,6 +48,7 @@ class TemperatureDetailTableViewController: UITableViewController {
         
         // Configure the cell...
         cell.textLabel?.text = detailList![indexPath.row]
+        cell.selectionStyle = .none
         return cell
     }
     
