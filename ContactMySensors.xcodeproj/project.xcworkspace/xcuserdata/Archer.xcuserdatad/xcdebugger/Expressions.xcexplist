@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TemperatureDetailTableViewController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:TemperatureDetailTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "temperatureRecord">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TemperatureRecordListTableViewController.viewDidLoad() -&gt; ():TemperatureRecordListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "splitViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TemperatureRecord.getDetailInString() -&gt; String!:TemperatureRecord.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "getDetailInArray()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

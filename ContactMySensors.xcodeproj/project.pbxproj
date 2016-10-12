@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		CB054B6F1DAB46A800CF9829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054B6E1DAB46A800CF9829 /* AppDelegate.swift */; };
-		CB054B711DAB46A800CF9829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054B701DAB46A800CF9829 /* ViewController.swift */; };
 		CB054B741DAB46A800CF9829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB054B721DAB46A800CF9829 /* Main.storyboard */; };
 		CB054B771DAB46A800CF9829 /* ContactMySensors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB054B751DAB46A800CF9829 /* ContactMySensors.xcdatamodeld */; };
 		CB054B791DAB46A800CF9829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB054B781DAB46A800CF9829 /* Assets.xcassets */; };
 		CB054B7C1DAB46A800CF9829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB054B7A1DAB46A800CF9829 /* LaunchScreen.storyboard */; };
 		CB054B871DAB46A800CF9829 /* ContactMySensorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054B861DAB46A800CF9829 /* ContactMySensorsTests.swift */; };
 		CB054B921DAB46A800CF9829 /* ContactMySensorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054B911DAB46A800CF9829 /* ContactMySensorsUITests.swift */; };
+		CB054BA21DAC6DA900CF9829 /* TemperatureRecordListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054BA11DAC6DA900CF9829 /* TemperatureRecordListTableViewController.swift */; };
+		CB054BA41DAC6DFF00CF9829 /* TemperatureRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054BA31DAC6DFF00CF9829 /* TemperatureRecord.swift */; };
+		CB054BA91DAC7C9C00CF9829 /* LoadRemoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054BA81DAC7C9C00CF9829 /* LoadRemoteData.swift */; };
+		CB116D4D1DACDB94002A1A7D /* TemperatureDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB116D4C1DACDB94002A1A7D /* TemperatureDetailTableViewController.swift */; };
+		CB116D4F1DACECF9002A1A7D /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB116D4E1DACECF9002A1A7D /* DashboardTableViewController.swift */; };
+		CB116D511DACEDD3002A1A7D /* ColorRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB116D501DACEDD3002A1A7D /* ColorRecord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		CB054B6B1DAB46A800CF9829 /* ContactMySensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactMySensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB054B6E1DAB46A800CF9829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB054B701DAB46A800CF9829 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB054B731DAB46A800CF9829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB054B761DAB46A800CF9829 /* ContactMySensors.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactMySensors.xcdatamodel; sourceTree = "<group>"; };
 		CB054B781DAB46A800CF9829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		CB054B8D1DAB46A800CF9829 /* ContactMySensorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactMySensorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB054B911DAB46A800CF9829 /* ContactMySensorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMySensorsUITests.swift; sourceTree = "<group>"; };
 		CB054B931DAB46A800CF9829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB054BA11DAC6DA900CF9829 /* TemperatureRecordListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureRecordListTableViewController.swift; sourceTree = "<group>"; };
+		CB054BA31DAC6DFF00CF9829 /* TemperatureRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureRecord.swift; sourceTree = "<group>"; };
+		CB054BA81DAC7C9C00CF9829 /* LoadRemoteData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadRemoteData.swift; sourceTree = "<group>"; };
+		CB116D4C1DACDB94002A1A7D /* TemperatureDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureDetailTableViewController.swift; sourceTree = "<group>"; };
+		CB116D4E1DACECF9002A1A7D /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
+		CB116D501DACEDD3002A1A7D /* ColorRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				CB054B6E1DAB46A800CF9829 /* AppDelegate.swift */,
-				CB054B701DAB46A800CF9829 /* ViewController.swift */,
-				CB054B721DAB46A800CF9829 /* Main.storyboard */,
+				CB054BA71DAC7BFE00CF9829 /* Network Communication */,
+				CB054BA61DAC7BF100CF9829 /* ViewControllers */,
+				CB054BA51DAC7BD900CF9829 /* Data Model */,
 				CB054B781DAB46A800CF9829 /* Assets.xcassets */,
+				CB054B721DAB46A800CF9829 /* Main.storyboard */,
 				CB054B7A1DAB46A800CF9829 /* LaunchScreen.storyboard */,
 				CB054B7D1DAB46A800CF9829 /* Info.plist */,
 				CB054B751DAB46A800CF9829 /* ContactMySensors.xcdatamodeld */,
@@ -126,6 +138,33 @@
 				CB054B931DAB46A800CF9829 /* Info.plist */,
 			);
 			path = ContactMySensorsUITests;
+			sourceTree = "<group>";
+		};
+		CB054BA51DAC7BD900CF9829 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB054BA31DAC6DFF00CF9829 /* TemperatureRecord.swift */,
+				CB116D501DACEDD3002A1A7D /* ColorRecord.swift */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		CB054BA61DAC7BF100CF9829 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB116D4E1DACECF9002A1A7D /* DashboardTableViewController.swift */,
+				CB054BA11DAC6DA900CF9829 /* TemperatureRecordListTableViewController.swift */,
+				CB116D4C1DACDB94002A1A7D /* TemperatureDetailTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CB054BA71DAC7BFE00CF9829 /* Network Communication */ = {
+			isa = PBXGroup;
+			children = (
+				CB054BA81DAC7C9C00CF9829 /* LoadRemoteData.swift */,
+			);
+			name = "Network Communication";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +235,7 @@
 				TargetAttributes = {
 					CB054B6A1DAB46A800CF9829 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8M8NTHUJ3Q;
 						ProvisioningStyle = Automatic;
 					};
 					CB054B811DAB46A800CF9829 = {
@@ -262,8 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB054B711DAB46A800CF9829 /* ViewController.swift in Sources */,
+				CB116D4F1DACECF9002A1A7D /* DashboardTableViewController.swift in Sources */,
+				CB054BA21DAC6DA900CF9829 /* TemperatureRecordListTableViewController.swift in Sources */,
+				CB116D511DACEDD3002A1A7D /* ColorRecord.swift in Sources */,
+				CB054BA91DAC7C9C00CF9829 /* LoadRemoteData.swift in Sources */,
+				CB116D4D1DACDB94002A1A7D /* TemperatureDetailTableViewController.swift in Sources */,
 				CB054B771DAB46A800CF9829 /* ContactMySensors.xcdatamodeld in Sources */,
+				CB054BA41DAC6DFF00CF9829 /* TemperatureRecord.swift in Sources */,
 				CB054B6F1DAB46A800CF9829 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +461,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8M8NTHUJ3Q;
 				INFOPLIST_FILE = ContactMySensors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ztia23.ContactMySensors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,7 +475,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8M8NTHUJ3Q;
 				INFOPLIST_FILE = ContactMySensors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ztia23.ContactMySensors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +558,7 @@
 				CB054B981DAB46A800CF9829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB054B991DAB46A800CF9829 /* Build configuration list for PBXNativeTarget "ContactMySensorsTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +567,7 @@
 				CB054B9B1DAB46A800CF9829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB054B9C1DAB46A800CF9829 /* Build configuration list for PBXNativeTarget "ContactMySensorsUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +576,7 @@
 				CB054B9E1DAB46A800CF9829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
