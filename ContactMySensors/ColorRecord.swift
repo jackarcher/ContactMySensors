@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ColorRecord: NSObject {
+class ColorRecord: NSObject, DisplayableRecord {
     /// Refers to the clear light reading
     var clear:Double!
     
@@ -37,9 +37,7 @@ class ColorRecord: NSObject {
         self.blue = blue
         time = Date(timeIntervalSince1970: (Double(timeInterval) / 1000.0))
     }
-    
-    ///This method is used to get a fomatted date time in String.
-    ///- Returns: Date & time for the date before today, and only time for today, in the String format.
+
     func getFormattedTime() -> String{
         let df = DateFormatter()
         let today = Date()
@@ -53,22 +51,16 @@ class ColorRecord: NSObject {
         return df.string(from: time)
     }
     
-    /// This function is used to get a generated array, which contains all the detail information that will be displayed
-    /// on the detail view. The detail view in our design would also be a table view, so it would be better
-    /// to store all the information by an array.
-    /// - Returns: An array that contains all detail info for the color record.
     func getDetailInArray() -> Array<String>!{
         var result:[String] = []
         result.append("Time: \(getFormattedTime())")
         result.append("Clear: \(clear!)")
         result.append("Red: \(red!)")
         result.append("Green: \(green!)")
-        result.append("Blue: \(blue)")
+        result.append("Blue: \(blue!)")
         return result
     }
-    
-    /// This function is used to generated a String format of the detailed info
-    /// Returns: A String that contains all detailed info for the color record in multiple lines
+
     func getDetailInString() -> String!{
         var result:String = ""
         for str in getDetailInArray(){
