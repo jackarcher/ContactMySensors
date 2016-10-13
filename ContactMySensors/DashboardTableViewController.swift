@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftCharts
 
 /// This class refers to the dashboard that will apper first when the app launched.
 /// It will display the current readings from the two sensors.
@@ -50,6 +51,7 @@ class DashboardTableViewController: UITableViewController, UISplitViewController
         let btnRefresh = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(reload))
         self.navigationItem.rightBarButtonItem = btnRefresh
      
+        LoadRemoteData.processWeather(failHandler: nil)
         
         
         // load data!

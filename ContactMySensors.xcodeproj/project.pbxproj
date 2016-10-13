@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A9A7877115F9FA419E786B5 /* Pods_ContactMySensorsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68D6D8F0D5687599939D0AA /* Pods_ContactMySensorsUITests.framework */; };
+		7ED644411DC3253B55A24CB8 /* Pods_ContactMySensorsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1776FA8909E262BCC9A23DF2 /* Pods_ContactMySensorsTests.framework */; };
 		CB054B6F1DAB46A800CF9829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB054B6E1DAB46A800CF9829 /* AppDelegate.swift */; };
 		CB054B741DAB46A800CF9829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB054B721DAB46A800CF9829 /* Main.storyboard */; };
 		CB054B771DAB46A800CF9829 /* ContactMySensors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB054B751DAB46A800CF9829 /* ContactMySensors.xcdatamodeld */; };
@@ -20,6 +22,12 @@
 		CB116D4D1DACDB94002A1A7D /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB116D4C1DACDB94002A1A7D /* DetailTableViewController.swift */; };
 		CB116D4F1DACECF9002A1A7D /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB116D4E1DACECF9002A1A7D /* DashboardTableViewController.swift */; };
 		CB116D511DACEDD3002A1A7D /* ColorRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB116D501DACEDD3002A1A7D /* ColorRecord.swift */; };
+		CB1CA0731DAE2BD5000C47A6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CB1CA0721DAE2BD5000C47A6 /* Podfile */; };
+		CB65A9541DAE8368003EFA26 /* DiagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65A9531DAE8368003EFA26 /* DiagramViewController.swift */; };
+		CB65A9561DAE845B003EFA26 /* ExamplesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65A9551DAE845B003EFA26 /* ExamplesDefaults.swift */; };
+		CB65A9591DAE84CB003EFA26 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65A9581DAE84CB003EFA26 /* Env.swift */; };
+		CB65A95B1DAE9A27003EFA26 /* WebWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65A95A1DAE9A27003EFA26 /* WebWeather.swift */; };
+		D40C3A97E233718F3156E0BB /* Pods_ContactMySensors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C445B50740DB8B068A20AB7 /* Pods_ContactMySensors.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126C87418EA23A269FD0F41F /* Pods-ContactMySensorsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactMySensorsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactMySensorsUITests/Pods-ContactMySensorsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1776FA8909E262BCC9A23DF2 /* Pods_ContactMySensorsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactMySensorsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C445B50740DB8B068A20AB7 /* Pods_ContactMySensors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactMySensors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7265A99050565C3C5DD013C8 /* Pods-ContactMySensorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactMySensorsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContactMySensorsTests/Pods-ContactMySensorsTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA80833F28ACFAC230F2F29C /* Pods-ContactMySensorsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactMySensorsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContactMySensorsUITests/Pods-ContactMySensorsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C68D6D8F0D5687599939D0AA /* Pods_ContactMySensorsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactMySensorsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB054B6B1DAB46A800CF9829 /* ContactMySensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactMySensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB054B6E1DAB46A800CF9829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB054B731DAB46A800CF9829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +73,14 @@
 		CB116D4C1DACDB94002A1A7D /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		CB116D4E1DACECF9002A1A7D /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
 		CB116D501DACEDD3002A1A7D /* ColorRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorRecord.swift; sourceTree = "<group>"; };
+		CB1CA0721DAE2BD5000C47A6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CB65A9531DAE8368003EFA26 /* DiagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagramViewController.swift; sourceTree = "<group>"; };
+		CB65A9551DAE845B003EFA26 /* ExamplesDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesDefaults.swift; sourceTree = "<group>"; };
+		CB65A9581DAE84CB003EFA26 /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		CB65A95A1DAE9A27003EFA26 /* WebWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebWeather.swift; sourceTree = "<group>"; };
+		CDB65BBA49814A884AE6D8D1 /* Pods-ContactMySensors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactMySensors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactMySensors/Pods-ContactMySensors.debug.xcconfig"; sourceTree = "<group>"; };
+		DCECF1736BCC1C5FF6855221 /* Pods-ContactMySensorsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactMySensorsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactMySensorsTests/Pods-ContactMySensorsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F03FDC7687EE3DDD6F42DF51 /* Pods-ContactMySensors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactMySensors.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContactMySensors/Pods-ContactMySensors.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40C3A97E233718F3156E0BB /* Pods_ContactMySensors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED644411DC3253B55A24CB8 /* Pods_ContactMySensorsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9A7877115F9FA419E786B5 /* Pods_ContactMySensorsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +114,13 @@
 		CB054B621DAB46A800CF9829 = {
 			isa = PBXGroup;
 			children = (
+				CB1CA0721DAE2BD5000C47A6 /* Podfile */,
 				CB054B6D1DAB46A800CF9829 /* ContactMySensors */,
 				CB054B851DAB46A800CF9829 /* ContactMySensorsTests */,
 				CB054B901DAB46A800CF9829 /* ContactMySensorsUITests */,
 				CB054B6C1DAB46A800CF9829 /* Products */,
+				FA8A5A295438310D6C0632F4 /* Pods */,
+				ED46ECB75ED40B8741A68319 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +141,7 @@
 				CB054BA71DAC7BFE00CF9829 /* Network Communication */,
 				CB054BA61DAC7BF100CF9829 /* ViewControllers */,
 				CB054BA51DAC7BD900CF9829 /* Data Model */,
+				CB65A9571DAE8463003EFA26 /* Diagram */,
 				CB054B781DAB46A800CF9829 /* Assets.xcassets */,
 				CB054B721DAB46A800CF9829 /* Main.storyboard */,
 				CB054B7A1DAB46A800CF9829 /* LaunchScreen.storyboard */,
@@ -145,6 +174,7 @@
 			children = (
 				CB054BA31DAC6DFF00CF9829 /* TemperatureRecord.swift */,
 				CB116D501DACEDD3002A1A7D /* ColorRecord.swift */,
+				CB65A95A1DAE9A27003EFA26 /* WebWeather.swift */,
 			);
 			name = "Data Model";
 			sourceTree = "<group>";
@@ -155,6 +185,7 @@
 				CB116D4E1DACECF9002A1A7D /* DashboardTableViewController.swift */,
 				CB054BA11DAC6DA900CF9829 /* RecordListTableViewController.swift */,
 				CB116D4C1DACDB94002A1A7D /* DetailTableViewController.swift */,
+				CB65A9531DAE8368003EFA26 /* DiagramViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -167,6 +198,38 @@
 			name = "Network Communication";
 			sourceTree = "<group>";
 		};
+		CB65A9571DAE8463003EFA26 /* Diagram */ = {
+			isa = PBXGroup;
+			children = (
+				CB65A9581DAE84CB003EFA26 /* Env.swift */,
+				CB65A9551DAE845B003EFA26 /* ExamplesDefaults.swift */,
+			);
+			name = Diagram;
+			sourceTree = "<group>";
+		};
+		ED46ECB75ED40B8741A68319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C445B50740DB8B068A20AB7 /* Pods_ContactMySensors.framework */,
+				1776FA8909E262BCC9A23DF2 /* Pods_ContactMySensorsTests.framework */,
+				C68D6D8F0D5687599939D0AA /* Pods_ContactMySensorsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8A5A295438310D6C0632F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDB65BBA49814A884AE6D8D1 /* Pods-ContactMySensors.debug.xcconfig */,
+				F03FDC7687EE3DDD6F42DF51 /* Pods-ContactMySensors.release.xcconfig */,
+				DCECF1736BCC1C5FF6855221 /* Pods-ContactMySensorsTests.debug.xcconfig */,
+				7265A99050565C3C5DD013C8 /* Pods-ContactMySensorsTests.release.xcconfig */,
+				126C87418EA23A269FD0F41F /* Pods-ContactMySensorsUITests.debug.xcconfig */,
+				BA80833F28ACFAC230F2F29C /* Pods-ContactMySensorsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB054B961DAB46A800CF9829 /* Build configuration list for PBXNativeTarget "ContactMySensors" */;
 			buildPhases = (
+				350D6EB10CE2D954CB550B74 /* [CP] Check Pods Manifest.lock */,
 				CB054B671DAB46A800CF9829 /* Sources */,
 				CB054B681DAB46A800CF9829 /* Frameworks */,
 				CB054B691DAB46A800CF9829 /* Resources */,
+				06817AFF8408695F277E3433 /* [CP] Embed Pods Frameworks */,
+				3AC4EA581618F017C8F78F3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB054B991DAB46A800CF9829 /* Build configuration list for PBXNativeTarget "ContactMySensorsTests" */;
 			buildPhases = (
+				F3BC7ED5A10C09840B13D550 /* [CP] Check Pods Manifest.lock */,
 				CB054B7E1DAB46A800CF9829 /* Sources */,
 				CB054B7F1DAB46A800CF9829 /* Frameworks */,
 				CB054B801DAB46A800CF9829 /* Resources */,
+				F0409B1B06DC935B7978629F /* [CP] Embed Pods Frameworks */,
+				A3267E4302AC1F27965FB866 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB054B9C1DAB46A800CF9829 /* Build configuration list for PBXNativeTarget "ContactMySensorsUITests" */;
 			buildPhases = (
+				79C9BD6FD4ABADE2012BA1AE /* [CP] Check Pods Manifest.lock */,
 				CB054B891DAB46A800CF9829 /* Sources */,
 				CB054B8A1DAB46A800CF9829 /* Frameworks */,
 				CB054B8B1DAB46A800CF9829 /* Resources */,
+				DE1D6F69F7C449A59F8813AB /* [CP] Embed Pods Frameworks */,
+				B0E50695FD3635CE27AFADD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +349,7 @@
 			files = (
 				CB054B7C1DAB46A800CF9829 /* LaunchScreen.storyboard in Resources */,
 				CB054B791DAB46A800CF9829 /* Assets.xcassets in Resources */,
+				CB1CA0731DAE2BD5000C47A6 /* Podfile in Resources */,
 				CB054B741DAB46A800CF9829 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,19 +370,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06817AFF8408695F277E3433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactMySensors/Pods-ContactMySensors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		350D6EB10CE2D954CB550B74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3AC4EA581618F017C8F78F3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactMySensors/Pods-ContactMySensors-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C9BD6FD4ABADE2012BA1AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3267E4302AC1F27965FB866 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactMySensorsTests/Pods-ContactMySensorsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0E50695FD3635CE27AFADD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactMySensorsUITests/Pods-ContactMySensorsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE1D6F69F7C449A59F8813AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactMySensorsUITests/Pods-ContactMySensorsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0409B1B06DC935B7978629F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactMySensorsTests/Pods-ContactMySensorsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3BC7ED5A10C09840B13D550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB054B671DAB46A800CF9829 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CB116D4F1DACECF9002A1A7D /* DashboardTableViewController.swift in Sources */,
+				CB65A95B1DAE9A27003EFA26 /* WebWeather.swift in Sources */,
 				CB054BA21DAC6DA900CF9829 /* RecordListTableViewController.swift in Sources */,
+				CB65A9561DAE845B003EFA26 /* ExamplesDefaults.swift in Sources */,
+				CB65A9541DAE8368003EFA26 /* DiagramViewController.swift in Sources */,
 				CB116D511DACEDD3002A1A7D /* ColorRecord.swift in Sources */,
 				CB054BA91DAC7C9C00CF9829 /* LoadRemoteData.swift in Sources */,
 				CB116D4D1DACDB94002A1A7D /* DetailTableViewController.swift in Sources */,
 				CB054B771DAB46A800CF9829 /* ContactMySensors.xcdatamodeld in Sources */,
 				CB054BA41DAC6DFF00CF9829 /* TemperatureRecord.swift in Sources */,
 				CB054B6F1DAB46A800CF9829 /* AppDelegate.swift in Sources */,
+				CB65A9591DAE84CB003EFA26 /* Env.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +674,7 @@
 		};
 		CB054B971DAB46A800CF9829 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB65BBA49814A884AE6D8D1 /* Pods-ContactMySensors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8M8NTHUJ3Q;
@@ -473,6 +689,7 @@
 		};
 		CB054B981DAB46A800CF9829 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03FDC7687EE3DDD6F42DF51 /* Pods-ContactMySensors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8M8NTHUJ3Q;
@@ -487,6 +704,7 @@
 		};
 		CB054B9A1DAB46A800CF9829 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCECF1736BCC1C5FF6855221 /* Pods-ContactMySensorsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +719,7 @@
 		};
 		CB054B9B1DAB46A800CF9829 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7265A99050565C3C5DD013C8 /* Pods-ContactMySensorsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +734,7 @@
 		};
 		CB054B9D1DAB46A800CF9829 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126C87418EA23A269FD0F41F /* Pods-ContactMySensorsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ContactMySensorsUITests/Info.plist;
@@ -528,6 +748,7 @@
 		};
 		CB054B9E1DAB46A800CF9829 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA80833F28ACFAC230F2F29C /* Pods-ContactMySensorsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ContactMySensorsUITests/Info.plist;

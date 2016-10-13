@@ -143,4 +143,53 @@ public class LoadRemoteData{
         }
         
     }
+    
+    static func processWeather(failHandler:(()->Void)?){
+        // set the activitiy icon on
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        
+        // set url
+        let prepareURL = "http://api.openweathermap.org/data/2.5/weather?zip=3145,au&units=metric&appid=e2afc76bf0c3926204ced3218e372825".addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)
+        let url = URL(string: prepareURL!)!
+        print("GET \(url)")
+        
+        // set session
+        let defaultSession = URLSession(configuration: URLSessionConfiguration.default)
+        
+        // data task for session
+        var dataTask: URLSessionDataTask?
+        dataTask = defaultSession.dataTask(with: url){
+            data,respons, error in
+            // async queue
+            DispatchQueue.main.async{
+                // error handler
+                if let error = error{
+                    print (error.localizedDescription)
+                } else if let httpResponse = respons as? HTTPURLResponse {
+                    print(httpResponse.statusCode)
+                    if httpResponse.statusCode == 200{
+                        // successufly got data
+                        do {
+                            guard
+                                let responsJSON = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions()) as? [String:AnyObject],
+                                let main = responsJSON["main"] as? [String: AnyObject],
+                                let temperature = main["temp"] as? Float,
+                                let airPressure = main["pressure"] as? Float else {return}
+                            let webWeather = WebWeather(temperature: temperature, airPressure: airPressure/10)
+                            print(webWeather.getDetailInString())
+                        } catch {
+                            print(error)
+                        }
+
+                    } else{
+                        // todo alert
+                        failHandler?()
+                    }
+                }
+                UIApplication.shared.isNetworkActivityIndicatorVisible = false
+            }
+        }
+        dataTask?.resume()
+
+    }
 }
